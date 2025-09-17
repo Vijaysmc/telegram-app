@@ -158,10 +158,10 @@ const HomeBanner = () => {
                 src="/images/usertrus.png"
                 alt="Trusted Icon"
                 sx={{
-                  width: "21px",
-                  height: "20px",
+                  width: "20px",
+                  height: "19px",
                   ml: -3,
-                  mt: 0,
+                  marginTop:'-3px',
                   position: "absolute",
                 }}
               />
