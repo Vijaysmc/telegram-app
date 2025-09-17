@@ -28,7 +28,7 @@ const HomeBanner = () => {
     textAlign: "center",
     background: "#e4fee9",
     padding: "5px",
-    width: { xs: "100%", md: "30%" },
+    width: {  md: "30%" },
     margin: "0px auto",
     borderRadius: "5px",
     border: "3px solid #a0e0bd",
