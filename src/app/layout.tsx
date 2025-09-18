@@ -26,7 +26,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <html lang="en" className={inter.className}>
       <head />
       <body>
-        <HomeBanner />
+      
         <main>{children}</main>
       </body>
     </html>

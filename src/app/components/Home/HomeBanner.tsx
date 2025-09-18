@@ -18,7 +18,6 @@ const HomeBanner = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
-
   const TypographyStyles = {
     my: { xs: 1, sm: 2 },
     fontSize: { xs: 12, sm: 16, md: 16 },
@@ -28,10 +27,10 @@ const HomeBanner = () => {
     textAlign: "center",
     background: "#e4fee9",
     padding: "5px",
-    width: {  md: "30%" },
+    width: { md: "30%" },
     margin: "0px auto",
     borderRadius: "5px",
-    border: "3px solid #a0e0bd",
+    border: "3px solid #afdbc3",
     fontFamily: "Inter, sans-serif",
   };
 
@@ -161,7 +160,7 @@ const HomeBanner = () => {
                   width: "20px",
                   height: "19px",
                   ml: -3,
-                  marginTop:'-3px',
+                  marginTop: "-3px",
                   position: "absolute",
                 }}
               />
