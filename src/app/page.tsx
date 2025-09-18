@@ -30,32 +30,32 @@ export default function HomePage() {
     };
   }, []);
 
-  if (!isMobileOrTablet) {
-    return (
-      <Box
-        sx={{
-          height: "100vh",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          bgcolor: "#f5f5f5",
-          textAlign: "center",
-          px: 2,
-        }}
-      >
-        <Typography
-          variant="h5"
-          sx={{ color: "#333", fontWeight: 600, maxWidth: 400 }}
-        >
-          🚫 This page is available only on mobile and tablet devices.
-        </Typography>
-      </Box>
-    );
-  }
+  // if (!isMobileOrTablet) {
+  //   return (
+  //     <Box
+  //       sx={{
+  //         height: "100vh",
+  //         display: "flex",
+  //         justifyContent: "center",
+  //         alignItems: "center",
+  //         bgcolor: "#f5f5f5",
+  //         textAlign: "center",
+  //         px: 2,
+  //       }}
+  //     >
+  //       <Typography
+  //         variant="h5"
+  //         sx={{ color: "#333", fontWeight: 600, maxWidth: 400 }}
+  //       >
+  //         🚫 This page is available only on mobile and tablet devices.
+  //       </Typography>
+  //     </Box>
+  //   );
+  // }
 
   return (
     <div className="h-full">
-        <HomeBanner />
+      <HomeBanner />
       <OurProducts />
       <OurResearch />
       <Disclaimer />

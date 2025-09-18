@@ -41,7 +41,7 @@ export default function OurResearch() {
 
           <Box
       sx={{
-        backgroundColor: "#0c2419", 
+          background: "linear-gradient(180deg, #eefaeaff 20%, #e8fcd5ff 90%);",
         py: { xs: 4, md: 3 },
         px: { xs: 2, sm: 4, md: 3 },
         borderRadius: "20px",
@@ -57,12 +57,13 @@ export default function OurResearch() {
          
           <Grid item xs={12} md={4} display="flex" justifyContent="center">
             <Avatar
-              src="/images/NITIN.jpg"
+              src="/images/NITIN.png"
               alt="NITIN"
               sx={{
                 width: { xs: 200, md: 260 },
                 height: { xs: 200, md: 260 },
-                borderRadius: 3,
+                borderRadius: 50,
+                border:'2px solid #76a54c'
               }}
             />
           </Grid>
@@ -73,7 +74,7 @@ export default function OurResearch() {
                 variant="body1"
               sx={{
                 fontWeight: 400,
-                color: "#fff",
+                color: "#222448",
                 fontSize: { xs: 15, sm: 16, md: 20 },
                 lineHeight: 1.4,
                 textAlign:"left"
@@ -87,7 +88,7 @@ export default function OurResearch() {
               sx={{
                 mt: 3,
                 fontWeight: 500,
-                color: "#fff",
+                color: "#222448",
                  textAlign:"left",
                   fontSize: { xs: 13, sm: 16, md: 20 },
               }}
@@ -98,7 +99,7 @@ export default function OurResearch() {
             <Typography
               variant="body2"
               sx={{
-                color: "#b0b0b0",
+                color: "#797777ff",
                  textAlign:"left"
               }}
             >
@@ -107,7 +108,7 @@ export default function OurResearch() {
             <Typography
               variant="body2"
               sx={{
-                color: "#b0b0b0",
+                color: "#797777ff",
                  textAlign:"left"
               }}
             >
