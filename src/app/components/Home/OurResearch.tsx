@@ -24,7 +24,7 @@ export default function OurResearch() {
         <Box
           sx={{
             textAlign: "center",
-            marginTop: { xs:8, sm: 3, md: 3 },
+            marginTop: { xs:1, sm: 3, md: 3 },
           }}
         >
           <Typography
