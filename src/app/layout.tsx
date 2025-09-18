@@ -1,8 +1,6 @@
 import React, { ReactNode } from 'react';
 import { Inter } from 'next/font/google';
 
-import HomeBanner from "./components/Home/HomeBanner";
-
 const inter = Inter({
   weight: ['400', '700', '900'],
   subsets: ['latin'],
